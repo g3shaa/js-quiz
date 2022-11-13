@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Киберсигурност - Тест</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<form id = "test" name = "test">
+
+
+<p class = "questions">Как се разбира дали един сайт е безопасен?</p>
+<input type = "radio" id = "mc" name = "question1" value = "URL адрес най-отпред е изписано https://, като “s”"> URL адрес най-отпред е изписано https://, като “s”<br>
+<input type = "radio" id = "mc" name = "question1" value = "Е ми ще се доверя на антивирусната ми програма"> Малки и големи букви<br>
+
+<p class = "questions">Какво трябва да съдържа една сигурна парола?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Малки,големи букви, цифри и специални символи"> Малки,големи букви, цифри и специални символи<br>
+<input type = "radio" id = "mc" name = "question2" value = "Малки и големи букви"> Малки и големи букви<br>
+
+<p class = "questions">Кои от посочените примери е правилен за една сигурна парола?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "1234"> 1234<br>
+<input type = "radio" id = "mc" name = "question3" value = "tmyemrwsh"> tmyemrwsh<br>
+<input type = "radio" id = "mc" name = "question3" value = "tAVUHVpeGPJJED!*6!H920"> tAVUHVpeGPJJED!*6!H920<br>
+
+
+
+<input id = "button" type = "button" value = "Провери резултат" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
+
+
+
